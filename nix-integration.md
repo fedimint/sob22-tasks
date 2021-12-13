@@ -4,6 +4,8 @@
 
 To make deployment easier having a Nix(OS) module allowing to easily set up a federation would be useful. Nix allows to write entire system configurations as a single configuration file and to reproducibly build that system. As such it is well-suited for security-critical applications.
 
+The project is building a nix module for MiniMint. This is related to [integration testing](ci-testing.md), so if both projects are chosen by someone they should coordinate.
+
 **Expected Outcomes:**
 * Basic understanding of federated e-cash and Bitcoin
 * Nix expression that builds the project's binary outputs
